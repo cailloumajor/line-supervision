@@ -46,7 +46,7 @@ services:
       - ./grafana/influxdb.yaml:/etc/grafana/provisioning/datasources/influxdb.yaml
 
   influxdb:
-    image: influxdb:2.0.9
+    image: influxdb:2.3.0
     environment:
       - INFLUXD_REPORTING_DISABLED=true
     healthcheck:
