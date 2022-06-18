@@ -1,4 +1,4 @@
-FROM node:16.10.0-buster as frontend-builder
+FROM node:16.15.1-buster as frontend-builder
 
 WORKDIR /app
 
